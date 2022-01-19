@@ -64,6 +64,12 @@ const routes = [
     name: "Agreement",
     component: () => import("../page/info/agreement.vue"),
   },
+  {
+    // 许可条款
+    path: "/info/donate",
+    name: "Donate",
+    component: () => import("../page/info/donate.vue"),
+  },
 ];
 
 const router = new VueRouter({
