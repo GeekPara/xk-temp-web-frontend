@@ -1,5 +1,14 @@
 import { createVuePlugin } from 'vite-plugin-vue2'
- 
-export default {
-  plugins: [createVuePlugin()]
+import { viteMockServe } from 'vite-plugin-mock'
+
+export default ({ command }) => {
+  return {
+    plugins: [
+      createVuePlugin(),
+      viteMockServe({
+        mockPath: 'mock',
+        localEnabled: command === 'serve',
+      })
+    ],
+  }
 }
