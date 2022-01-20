@@ -40,6 +40,11 @@
         </div>
       </v-col>
     </v-row>
+    <v-row align="bottom">
+      <v-col>
+        <p class="txt"></p>
+      </v-col>
+    </v-row>
   </v-container>
 </template>
 
