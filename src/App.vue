@@ -1,15 +1,15 @@
 <template>
   <v-app>
     <v-main>
-<router-view></router-view>
+      <router-view></router-view>
     </v-main>
   </v-app>
 </template>
 
 <script>
-  export default {
-    data: () => ({
-      collapseOnScroll: true,
-    }),
-  }
+export default {
+  data: () => ({
+    collapseOnScroll: true,
+  }),
+};
 </script>
