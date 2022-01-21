@@ -1,7 +1,7 @@
 <template>
   <v-container class="fill-height">
-    <v-row align="center">
-      <v-col align-self="center">
+    <v-row>
+      <v-col>
         <div class="mx-4 my-6">
           <h1 class="text-h5 font-weight-bol text-center">登录</h1>
           <h2 class="text-h6 font-weight-bol text-center">
@@ -40,9 +40,9 @@
         </div>
       </v-col>
     </v-row>
-    <v-row align="bottom">
+    <v-row>
       <v-col>
-        <p class="txt"></p>
+        <p class="text-center">账户服务由<a>鑫考云校园</a>提供</p>
       </v-col>
     </v-row>
   </v-container>
