@@ -17,6 +17,12 @@ const routes = [
     component: () => import("../page/login.vue"),
   },
   {
+    // 登录页
+    path: "/chooseStu",
+    name: "ChooseStu",
+    component: () => import("../page/chooseStu.vue"),
+  },
+  {
     // 登录后用户控制台
     path: "/dashboard",
     name: "Dashboard",

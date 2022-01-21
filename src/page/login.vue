@@ -50,14 +50,13 @@
 
 <script>
 export default {
-  data: function () {
-    return {
+  data:  () =>({
       mobile: "",
       password: "",
       mobile_rule: [(value) => /^1\d{10}$/.test(value) || "手机号码不合法"],
       password_show: false,
       agree_eula: false,
-    };
-  },
+    
+  }),
 };
 </script>
