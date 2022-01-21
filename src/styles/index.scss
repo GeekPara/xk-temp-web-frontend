@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "NotoSansSC";
+    src: url("/fonts/NotoSansSC-Regular.otf");
+}
+@font-face {
+    font-family: "NotoSansSC";
+    src: url("/fonts/NotoSansSC-Bold.otf");
+    font-weight: bold;
+}
+$body-font-family: "Roboto", "NotoSansSC" !default
